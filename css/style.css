@@ -190,6 +190,12 @@ border:1px solid var(--border);
 border-radius:9px;
 background:var(--surface);
 color:var(--heading);
+cursor: pointer;
+transition: background 0.2s, color 0.2s;
+}
+.nav-icon:hover {
+background: var(--surface2);
+color: var(--blue);
 }
 .nav-icon span{
 display:flex;
@@ -249,7 +255,8 @@ border-radius:8px;
 color:var(--heading);
 text-align:center;
 }
-.mobile-menu a:hover{
+.mobile-menu a:hover,
+.mobile-menu a.active {
 background:var(--surface2);
 color:var(--blue);
 }
@@ -1865,6 +1872,7 @@ font-size:2.56rem;
 }
 .hero-actions{
 flex-direction:column;
+align-items:center;
 }
 .hero-actions .btn{
 width:100%;
@@ -2139,4 +2147,44 @@ NEW ADDED SECTIONS CSS
 .home1-hero .kicker {
     color: var(--cyan) !important;
     border-color: rgba(103,204,231,0.3) !important;
+}
+
+/* Mobile responsive for Our Process Timeline */
+@media (max-width: 768px) {
+    .process-grid::before {
+        left: 20px;
+    }
+    .process-step {
+        width: 100%;
+        padding: 0 0 40px 50px;
+    }
+    .process-step:nth-child(odd),
+    .process-step:nth-child(even) {
+        left: 0;
+        text-align: left;
+    }
+    .process-step:nth-child(odd)::after,
+    .process-step:nth-child(even)::after {
+        left: 10px;
+        right: auto;
+    }
+    
+    /* Deep Dive and Impact Grid Mobile Alignment */
+    .deep-dive-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    .deep-dive-grid.reverse .deep-dive-content,
+    .deep-dive-grid.reverse .deep-dive-image {
+        order: unset;
+    }
+    .impact-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    .impact-box.large,
+    .impact-box.wide {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
 }

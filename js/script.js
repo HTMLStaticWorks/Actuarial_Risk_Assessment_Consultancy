@@ -4,7 +4,7 @@ PAGE ROUTING
 
 document.addEventListener("DOMContentLoaded", function() {
     const currentPath = window.location.pathname.split('/').pop() || 'index.html';
-    document.querySelectorAll('.nav-link').forEach(link => {
+    document.querySelectorAll('.nav-link, #mobileMenu a:not(.consult-button)').forEach(link => {
         link.classList.remove('active');
         const href = link.getAttribute('href');
         if (href === currentPath || (currentPath === '' && href === 'index.html')) {
