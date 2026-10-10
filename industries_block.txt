@@ -1,0 +1,107 @@
+﻿<section class="industry-section">
+<div class="container">
+<div class="section-head">
+<div class="eyebrow">Key Industries</div>
+<h2>Specialized Expertise Across Sectors.</h2>
+<p>Providing robust actuarial and quantitative insights tailored to the unique regulatory and operational demands of critical industries.</p>
+</div>
+<div class="industry-grid">
+<div class="industry-card">
+<img
+src="images/Insurance2.png"
+alt="Insurance">
+<div class="industry-info">
+<h3>
+Insurance
+</h3>
+<p>
+Portfolio exposure, claims experience and scenario analysis.
+</p>
+</div>
+</div>
+<div class="industry-card">
+<img
+src="images/Reinsurance2.png"
+alt="Reinsurance">
+<div class="industry-info">
+<h3>
+Reinsurance
+</h3>
+<p>
+Risk transfer, aggregation and exposure considerations.
+</p>
+</div>
+</div>
+<div class="industry-card">
+<img
+src="images/Banking & Financial Services2.png"
+alt="Banking">
+<div class="industry-info">
+<h3>
+Banking & Financial Services
+</h3>
+<p>
+Quantitative risk analysis and financial exposure.
+</p>
+</div>
+</div>
+<div class="industry-card">
+<img
+src="images/Pension & Retirement2.png"
+alt="Pension">
+<div class="industry-info">
+<h3>
+Pension & Retirement
+</h3>
+<p>
+Liabilities, valuation and long-term projections.
+</p>
+</div>
+</div>
+<div class="industry-card">
+<img src="images/Healthcare.png" alt="Healthcare">
+<div class="industry-info">
+<h3>
+Healthcare
+</h3>
+<p>
+Population, financial and long-term risk considerations.
+</p>
+</div>
+</div>
+<div class="industry-card">
+<img src="images/Government & Public Sector.png" alt="Government & Public Sector">
+<div class="industry-info">
+<h3>
+Government & Public Sector
+</h3>
+<p>
+Institutional programs and long-term obligations.
+</p>
+</div>
+</div>
+<div class="industry-card">
+<img src="images/Investment & Asset Management.png" alt="Investment & Asset Management">
+<div class="industry-info">
+<h3>
+Investment & Asset Management
+</h3>
+<p>
+Portfolio analysis and quantitative risk perspectives.
+</p>
+</div>
+</div>
+<div class="industry-card">
+<img src="images/Corporate Risk.png" alt="Corporate Risk">
+<div class="industry-info">
+<h3>
+Corporate Risk
+</h3>
+<p>
+Enterprise exposure and strategic risk considerations.
+</p>
+</div>
+</div>
+</div>
+</div>
+</section>

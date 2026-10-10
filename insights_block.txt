@@ -1,0 +1,190 @@
+﻿<section class="insights">
+<div class="container">
+<div class="section-head">
+<div class="eyebrow">Latest Insights</div>
+<h2>Actuarial Perspectives & Risk Intelligence.</h2>
+<p>Explore our latest thinking on emerging risks, modeling methodologies, and financial uncertainty management.</p>
+</div>
+<div class="insight-grid">
+<div class="insight-card">
+<div class="insight-photo">
+<img
+src="images/Understanding Insurance Risk Modeling.png"
+alt="Insurance risk modeling">
+</div>
+<div class="insight-body">
+<small>
+INSURANCE
+</small>
+<h3>
+Understanding Insurance Risk Modeling
+</h3>
+<p>
+How portfolio characteristics, claims experience and scenario analysis contribute to a structured view of insurance risk.
+</p>
+</div>
+</div>
+<div class="insight-card">
+<div class="insight-photo">
+<img
+src="images/Pension Liabilities Explained.png"
+alt="Pension liabilities">
+</div>
+<div class="insight-body">
+<small>
+PENSIONS
+</small>
+<h3>
+Pension Liabilities Explained
+</h3>
+<p>
+Understanding obligations, assumptions, valuation methodology and long-term projections.
+</p>
+</div>
+</div>
+<div class="insight-card">
+<div class="insight-photo">
+<img
+src="images/How Catastrophe Models Support Risk Decisions.png"
+alt="Catastrophe risk">
+</div>
+<div class="insight-body">
+<small>
+CATASTROPHE RISK
+</small>
+<h3>
+How Catastrophe Models Support Risk Decisions
+</h3>
+<p>
+A practical perspective on geographic exposure, scenarios, aggregation and potential loss estimation.
+</p>
+</div>
+</div>
+<div class="insight-card">
+<div class="insight-photo">
+<img
+src="images/Scenario Analysis in Actuarial Planning.png"
+alt="Actuarial planning">
+</div>
+<div class="insight-body">
+<small>
+ACTUARIAL SCIENCE
+</small>
+<h3>
+Scenario Analysis in Actuarial Planning
+</h3>
+<p>
+Why alternative assumptions can provide a broader understanding of future uncertainty.
+</p>
+</div>
+</div>
+<div class="insight-card">
+<div class="insight-photo">
+<img
+src="images/From Data to Risk Insight.png"
+alt="Risk analytics">
+</div>
+<div class="insight-body">
+<small>
+RISK ANALYTICS
+</small>
+<h3>
+From Data to Risk Insight
+</h3>
+<p>
+Connecting quantitative analysis with the business question that decision-makers need to answer.
+</p>
+</div>
+</div>
+<div class="insight-card">
+<div class="insight-photo">
+<img
+src="images/Measuring Financial Uncertainty.png"
+alt="Financial modeling">
+</div>
+<div class="insight-body">
+<small>
+FINANCIAL MODELING
+</small>
+<h3>
+Measuring Financial Uncertainty
+</h3>
+<p>
+Understanding assumptions, ranges, sensitivities and potential financial implications.
+</p>
+</div>
+</div>
+</div>
+<div class="section-head"
+style="margin-top:90px;">
+<div class="eyebrow">
+Common Questions
+</div>
+<h2>
+Questions Clients Often Ask.
+</h2>
+</div>
+<div class="faq">
+<div class="faq-item">
+<button class="faq-question">
+<span>
+What does data-driven risk modeling involve?
+</span>
+<span class="faq-arrow"></span>
+</button>
+<div class="faq-answer">
+<div class="faq-answer-inner">
+<p>
+Data-driven risk modeling combines relevant information, assumptions, statistical techniques and scenario analysis to create a structured view of potential exposure and outcomes.
+</p>
+</div>
+</div>
+</div>
+<div class="faq-item">
+<button class="faq-question">
+<span>
+Why is scenario analysis important?
+</span>
+<span class="faq-arrow"></span>
+</button>
+<div class="faq-answer">
+<div class="faq-answer-inner">
+<p>
+Scenario analysis allows different assumptions and conditions to be examined so decision-makers can understand how results may change.
+</p>
+</div>
+</div>
+</div>
+<div class="faq-item">
+<button class="faq-question">
+<span>
+What is pension valuation?
+</span>
+<span class="faq-arrow"></span>
+</button>
+<div class="faq-answer">
+<div class="faq-answer-inner">
+<p>
+Pension valuation involves assessing long-term pension obligations using relevant financial, demographic and actuarial assumptions.
+</p>
+</div>
+</div>
+</div>
+<div class="faq-item">
+<button class="faq-question">
+<span>
+What is catastrophe modeling?
+</span>
+<span class="faq-arrow"></span>
+</button>
+<div class="faq-answer">
+<div class="faq-answer-inner">
+<p>
+Catastrophe modeling evaluates potential exposure associated with severe events using geographic, event-based and statistical modeling approaches.
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
