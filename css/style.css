@@ -9,6 +9,7 @@ GLOBAL
 --bg:#f3f7f9;
 --surface:#ffffff;
 --surface2:#eaf2f5;
+--white:#ffffff;
 --heading:#082733;
 --text:#405963;
 --muted:#6c858f;
@@ -2078,6 +2079,21 @@ NEW ADDED SECTIONS CSS
     color: var(--border);
     line-height: 1;
     margin-bottom: 10px;
+}
+.process-step h3 {
+    font-size: 1.35rem;
+    color: var(--heading);
+    margin-bottom: 8px;
+}
+.process-step p {
+    font-size: 1.02rem;
+    color: var(--text);
+    line-height: 1.6;
+}
+html.dark .process-step::after {
+    background: var(--cyan);
+    border: 4px solid var(--surface2);
+    box-shadow: 0 0 0 2px var(--blue);
 }
 
 /* Deep Dive Zigzag */
