@@ -1,4 +1,4 @@
-﻿/* =========================================================
+/* =========================================================
 GLOBAL
 ========================================================= */
 :root{
@@ -403,7 +403,8 @@ clamp(
 3.36rem
 );
 }
-.section-head p{`nfont-size:1.42rem;
+.section-head p{
+font-size:1.42rem;
 margin-top:12px;
 }
 .section-title{
@@ -414,7 +415,8 @@ clamp(
 3.06rem
 );
 }
-.section-text{`nfont-size:1.47rem;
+.section-text{
+font-size:1.47rem;
 margin-top:16px;
 }
 /* =========================================================
@@ -744,7 +746,8 @@ object-fit:cover !important;
 .image-card h3{
 font-size:1.06rem;
 }
-.image-card p{`nfont-size:1.0rem;
+.image-card p{
+font-size:1.0rem;
 margin-top:5px;
 }
 /* =========================================================
@@ -807,7 +810,8 @@ font-size:1.15rem;
 color:#fff;
 margin-top:6px;
 }
-.dark-content p{`nfont-size:1.0rem;
+.dark-content p{
+font-size:1.0rem;
 margin-top:5px;
 }
 /* =========================================================
@@ -1062,7 +1066,8 @@ letter-spacing:.1em;
 font-size:1.14rem;
 margin-top:6px;
 }
-.layer-body p{`nfont-size:1.0rem;
+.layer-body p{
+font-size:1.0rem;
 margin-top:5px;
 }
 /* =========================================================
@@ -1205,7 +1210,8 @@ font-weight:800;
 color:var(--heading);
 margin-top:7px;
 }
-.scenario p{`nfont-size:1.0rem;
+.scenario p{
+font-size:1.0rem;
 }
 /* =========================================================
 PAGE HERO
@@ -1241,7 +1247,9 @@ clamp(
 4.08rem
 );
 }
-.page-hero p{`nmax-width:680px;`nfont-size:1.53rem;
+.page-hero p{
+max-width:680px;
+font-size:1.53rem;
 margin-top:17px;
 }
 .page-photo{
@@ -1328,7 +1336,8 @@ object-fit:cover !important;
 .principle h3{
 font-size:1.06rem;
 }
-.principle p{`nfont-size:1.0rem;
+.principle p{
+font-size:1.0rem;
 margin-top:5px;
 }
 /* =========================================================
@@ -1340,7 +1349,8 @@ padding:90px 0;
 .service-grid{
 display:grid;
 grid-template-columns: repeat(3, 1fr);
-gap:17px;
+grid-auto-rows: 1fr;
+gap:22px;
 }
 .service-card{
   display: flex;
@@ -1372,13 +1382,15 @@ padding:20px;
 .service-body h2{
 font-size:1.82rem;
 }
-.service-body p{`nfont-size:1.18rem;
+.service-body p{
+font-size:1.18rem;
 margin-top:7px;
 }
 .service-list{
 display:grid;
 gap:5px;
 margin-top:13px;
+margin-bottom:24px;
 }
 .service-list span{
 font-size:0.82rem;
@@ -1392,6 +1404,9 @@ height:5px;
 border-radius:50%;
 background:var(--blue);
 margin-right:7px;
+}
+.service-card .btn{
+margin-top:auto;
 }
 /* =========================================================
 INSIGHTS
@@ -1452,7 +1467,8 @@ letter-spacing:.1em;
 font-size:1.21rem;
 margin-top:6px;
 }
-.insight-body p{`nfont-size:1.07rem;
+.insight-body p{
+font-size:1.07rem;
 margin-top:6px;
 }
 /* =========================================================
@@ -1504,7 +1520,8 @@ transition:max-height .35s ease;
 .faq-answer-inner{
 padding:0 17px 17px;
 }
-.faq-answer p{`nfont-size:1.11rem;
+.faq-answer p{
+font-size:1.11rem;
 }
 /* =========================================================
 CONTACT
@@ -1666,7 +1683,10 @@ clamp(
 3.84rem
 );
 }
-.final-content p{`nmax-width:700px;`nmargin:17px auto 0;`nfont-size:1.48rem;
+.final-content p{
+max-width:700px;
+margin:17px auto 0;
+font-size:1.48rem;
 color:#bfd0d6;
 }
 .final-actions{
@@ -1840,6 +1860,10 @@ grid-template-columns:
 repeat(2,1fr);
 }
 .principle-grid{
+grid-template-columns:
+repeat(2,1fr);
+}
+.service-grid{
 grid-template-columns:
 repeat(2,1fr);
 }
